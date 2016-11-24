@@ -1,0 +1,9 @@
+---
+applications:
+- name: server
+  memory: 512M
+  instances: 1
+  host: server
+  path: build/libs/server-0.0.1-SNAPSHOT.war
+  env:
+    SPRING_PROFILES_DEFAULT: cloud
