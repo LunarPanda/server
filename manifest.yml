@@ -2,6 +2,7 @@
 applications:
 - name: server
   memory: 512M
+  disk_quota: 512M
   instances: 1
   host: server
   path: build/libs/server-0.0.1-SNAPSHOT.war
